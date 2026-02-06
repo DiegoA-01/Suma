@@ -12,4 +12,7 @@ if (opcion == "1"){
 }else if (opcion == "2"){
     resultado = numero1 - numero2
     prompt("El resultado de la resta es: " + resultado)
+}else if (opcion == "3"){
+    resultado = numero1 * numero2
+    prompt("El resultado de la multiplicacion es: " + resultado)
 }
