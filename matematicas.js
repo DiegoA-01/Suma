@@ -15,4 +15,11 @@ if (opcion == "1"){
 }else if (opcion == "3"){
     resultado = numero1 * numero2
     prompt("El resultado de la multiplicacion es: " + resultado)
+}else if (opcion == "4"){
+    if (numero2 !== 0){
+        resultado = numero1 / numero2
+        prompt("El resultado de la division es: " + resultado)
+    } else {
+        prompt("Error: No se puede dividir por cero.")
+    }
 }
