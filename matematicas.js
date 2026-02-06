@@ -8,5 +8,8 @@ let resultado;
 
 if (opcion == "1"){
     resultado = numero1 + numero2
-    console.log("El resultado de la suma es: " + resultado)
+    prompt("El resultado de la suma es: " + resultado)
+}else if (opcion == "2"){
+    resultado = numero1 - numero2
+    prompt("El resultado de la resta es: " + resultado)
 }
